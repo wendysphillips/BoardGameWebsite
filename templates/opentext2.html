@@ -1,0 +1,66 @@
+<style>
+
+ .main {
+ background-color: rgba(255, 255, 255, 0.5);
+ margin-top: 100px;
+ padding-bottom: 50px;
+ }
+ .main h1 {
+ font-size: 3.5em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main h2 {
+ font-size: 2em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main h3 {
+ font-size: 2em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main p {
+ font-size:1em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+
+</style>
+
+
+
+    <title>Title</title>
+
+  </head>
+  <body>
+
+<div class="main">
+  <div style="text-align:center">
+    <br><br>
+  <img src="static/img/W_logo.png" style="width: 15%">
+    <div class="starter-template">
+
+
+    </div>
+  <br><br>
+
+<!-- This sends user to recommendations page after filling out the survey   -->
+<form action='/output2', method='POST'>
+
+<!-- My first question, input class="input" means a text box -->
+  <div><h3>What kind of game are you looking for?</h3></div>
+  <p>
+    <input class="input" type="text" name="sentence">
+  </p>
+  <br><br>
+
+
+  <br><br><br>
+  <button type="submit">Find my game!</button>
+</form>
+
+
+  </div>
+</div>
+</body>
