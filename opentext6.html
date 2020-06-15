@@ -1,0 +1,68 @@
+<style>
+
+ .main {
+ background-color: rgba(255, 255, 255, 0.5);
+ margin-top: 100px;
+ padding-bottom: 50px;
+ }
+ .main h1 {
+ font-size: 3.5em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main h2 {
+ font-size: 2em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main h3 {
+ font-size: 2em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+ .main p {
+ font-size:1em;
+ font-family: Arial;
+ color: #2E3759;
+ }
+
+</style>
+
+
+
+    <title>Title</title>
+
+  </head>
+  <body>
+    <div style="background:#F7F7F2" class="jumbotron">
+        <div class="container">
+            <h3 style="line-height:50px"> UpYourGame! </h3>
+            <p>Looking for just the right game? Tell me about it! In three to four sentences, describe what you want in your next game in the box below. </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <form action="/output5" method="POST">
+
+            <div class="container"> <!-- Open: Search Container -->
+                <!-- Search Bar -->
+                <div style="background:#5DD9C1" class="jumbotron">
+                    <div class="row">
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-8">
+                            <div class="input-group">
+                                <input name='search' type="text" class="form-control" id="search"  placeholder="Search games...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Close: Search Container -->
+
+        </form>
+    </div>
+  </body>
