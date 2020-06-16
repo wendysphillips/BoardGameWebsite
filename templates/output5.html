@@ -51,6 +51,7 @@
         <h3>Result:</h3>
         {% for i in range(0,5) %}
         <a href={{ games.iloc[i,1] }}><p align="center"><p align="center"> <font size="5" face="Verdana"> {{ games.iloc[i,0] }} </font></p>
+        <img src="static/images/{{ games.iloc[i,2] }}" alt="{{ games.iloc[i,2] }}" width="200" height="200" >
         {% endfor %}
       </div>
     </div>
